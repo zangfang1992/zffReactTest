@@ -1,0 +1,101 @@
+.el-table table .el-table__row {
+  cursor: pointer;
+}
+.el-table table .has-gutter {
+  color: #57626D;
+}
+.el-table table .has-gutter tr,
+.el-table table .has-gutter th {
+  background-color: #F9FAFB;
+  padding: 4px 0px;
+  border-bottom: 0;
+}
+.el-table table .has-gutter .th.is-leaf {
+  border: 0;
+  border-bottom: 0;
+}
+.el-table table tbody {
+  color: #293547;
+}
+.el-table table tbody tr,
+.el-table table tbody th,
+.el-table table tbody td {
+  border-bottom: 1px solid #EEF1F5;
+}
+.el-table table tbody tr:last-child {
+  border: 0;
+}
+.el-table table tbody tr:last-child th,
+.el-table table tbody tr:last-child td {
+  border: 0;
+}
+.el-table table tbody td,
+.el-table table tbody th {
+  padding: 5px 0px;
+}
+.el-table--border td,
+.el-table--border th,
+.el-table__body-wrapper .el-table--border.is-scrolling-left ~ .el-table__fixed {
+  border: 0;
+}
+.el-table--border,
+.el-table--group {
+  border: 1px solid #DDDEE1 !important;
+}
+.el-table--border::after,
+.el-table--group::after,
+.el-table::before {
+  background-color: #fff;
+}
+.el-pagination {
+  padding: 24px 5px;
+  text-align: right;
+  color: #57626D;
+}
+.el-pagination .el-input__inner {
+  border: 1px solid #DDDEE1;
+  color: #57626D;
+}
+.el-pagination .el-select .el-input {
+  width: 96px;
+}
+.el-pagination .el-input--mini .el-input__inner {
+  line-height: 32px;
+  height: 32px;
+}
+.el-pagination .el-pagination .el-select .el-input .el-input__inner {
+  border-radius: 4px;
+}
+.el-pagination .el-pagination__editor.el-input .el-input__inner {
+  line-height: 32px;
+  height: 32px;
+}
+.el-pagination .btn-next,
+.el-pagination .btn-prev {
+  border-radius: 4px;
+  border: 1px solid #dddee1;
+  margin-right: 9px;
+  color: #57626D;
+  padding: 0 9px;
+}
+.el-pagination button:disabled {
+  color: #C0C6CC;
+}
+.el-pagination .btn-next {
+  margin-right: 16px;
+}
+.el-pagination .el-input--mini .el-input__icon {
+  line-height: 32px;
+}
+.el-pagination button,
+.el-pagination span:not([class*=suffix]) {
+  line-height: 32px;
+  height: 32px;
+  min-width: 32px;
+}
+.el-pagination__jump {
+  margin-left: 0;
+}
+.el-message-box__wrapper {
+  top: -100px;
+}
