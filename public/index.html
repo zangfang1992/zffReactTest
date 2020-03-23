@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="<%= BASE_URL %>favicon.ico" type="image/x-icon" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"> -->
+    <link rel="stylesheet" href="<%= BASE_URL %>js/cdn/css/elementIndex.css">
+    <title>小意智能坐席辅助</title>
+    <script src="https://cdn.bootcss.com/vue/2.6.9/vue.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.17.1/axios.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue-router/3.0.1/vue-router.min.js"></script>
+    <script src="https://cdn.bootcss.com/vuex/3.0.1/vuex.min.js"></script>
+    <script src="https://cdn.bootcss.com/element-ui/2.12.0/index.js"></script>
+    <script src="https://cdn.bootcss.com/jssip/3.0.13/jssip.js"></script>
+    <script>
+      window.Vue || console.log('vuecdn is not available') || document.write('<script src="<%= BASE_URL %>js/cdn/vue.min.js"><\/script>')
+      window.axios || console.log('axioscdn is not available') || document.write('<script src="<%= BASE_URL %>js/cdn/axios.min.js"><\/script>')
+      window.VueRouter || console.log('vueroutercdn is not available') || document.write('<script src="<%= BASE_URL %>js/cdn/vue-router.min.js"><\/script>')
+      window.Vuex || console.log('vuexcdn is not available') || document.write('<script src="<%= BASE_URL %>js/cdn/vuex.min.js"><\/script>')
+      window.ELEMENT || console.log('ELEMENT is not available') || document.write('<script src="<%= BASE_URL %>js/cdn/elementUIJs.min.js"><\/script>')
+
+      window.JsSIP || console.log('JsSIP is not available') || document.write('<script src="<%= BASE_URL %>js/cdn/jsSip.min.js"><\/script>')
+    </script>
+    <script src="//at.alicdn.com/t/font_1507430_sv4yuep8nxq.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but qc-seat doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <div style="display: none">
+      <video id="meVideo" width="420px" height="320px" autoplay ></video>
+      <video id="youVideo" width="420px" height="320px" autoplay ></video>
+    </div>
+    <script>
+        if (window.ActiveXObject || "ActiveXObject" in window) {
+            alert("为了更好地使用本系统,建议您切换到其他现代浏览器或使用极速模式");
+        }
+    </script>
+  </body>
+</html>
